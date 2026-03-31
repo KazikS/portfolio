@@ -1,0 +1,22 @@
+@use "@/styles/variables" as *;
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  h1 {
+    font-size: 72px;
+    margin: 0;
+  }
+}
+
+.role {
+  color: $text-mid;
+  font-size: 1.25rem;
+}
+
+.location {
+  color: $text-dim;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,30 @@
+// === Color palette ===
+$brand-50: #fbf0e6;
+$brand-100: #f5e6d8;
+$brand-200: #e5c8aa;
+$brand-300: #d4b08c;
+$brand-400: #c19673;
+$brand-500: #a67d5d;
+$brand-600: #7c5840;
+$brand-700: #5c4230;
+$brand-800: #3d2c20;
+$brand-900: #261c1a;
+$brand-950: #1a1210;
+
+// === Semantic tokens ===
+$bg: $brand-950;
+$surface: $brand-900;
+$surface-hover: $brand-800;
+$border: $brand-700;
+$accent: $brand-400;
+$accent-dim: rgba(193, 150, 115, 0.15);
+$accent-glow: rgba(193, 150, 115, 0.4);
+$text: $brand-100;
+$text-dim: $brand-600;
+$text-mid: $brand-500;
+$danger: #d4645a;
+$warn: $brand-300;
+$info: $brand-200;
+
+$font-mono: "JetBrains Mono", monospace;
+$font-display: "Space Mono", monospace;

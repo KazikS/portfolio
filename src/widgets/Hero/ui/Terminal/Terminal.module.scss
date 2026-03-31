@@ -1,0 +1,59 @@
+@use "@/styles/variables" as *;
+
+.wrapper {
+  background-color: $surface;
+  max-width: 100%;
+  min-height: 100px;
+  border: 2px solid $brand-400;
+  border-radius: 16px;
+  padding: 20px 24px;
+}
+
+.controls {
+  display: flex;
+  align-items: start;
+  gap: 5px;
+}
+
+%control-element {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.close {
+  @extend %control-element;
+  background-color: $danger;
+}
+
+.collapse {
+  @extend %control-element;
+  background-color: $warn;
+}
+
+.stretch {
+  @extend %control-element;
+  background-color: $accent;
+}
+
+.caret {
+  width: 0.5em;
+  height: 1em;
+  background-color: $accent;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  white-space: pre;
+  margin: 10px 0;
+}
+
+.firstSymbols {
+  color: $text-dim;
+}
+
+.secondLine {
+  color: $text-mid;
+  font-size: small;
+}
