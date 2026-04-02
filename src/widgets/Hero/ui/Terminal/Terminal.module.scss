@@ -1,4 +1,4 @@
-@use "@/styles/variables" as *;
+@use '@/styles/variables' as *;
 
 .wrapper {
   background-color: $surface;
@@ -46,11 +46,13 @@ p {
   display: flex;
   align-items: center;
   white-space: pre;
+  text-wrap: wrap;
   margin: 10px 0;
 }
 
 .firstSymbols {
   color: $text-dim;
+  text-wrap: nowrap;
 }
 
 .secondLine {

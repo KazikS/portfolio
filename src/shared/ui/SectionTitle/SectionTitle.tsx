@@ -1,3 +1,5 @@
+import styles from './SectionTitle.module.scss';
+
 type Props = {
   sectionNumber: string;
   sectionName: string;
@@ -5,9 +7,10 @@ type Props = {
 
 export const SectionTitle = ({ sectionNumber, sectionName }: Props) => {
   return (
-    <div>
-      {sectionNumber}
-      <div>// {sectionName}</div>
+    <div className={styles.wrapper}>
+      <h2 className={styles.text}>
+        <span className={styles.number}>{sectionNumber}</span>// {sectionName}
+      </h2>
     </div>
   );
 };

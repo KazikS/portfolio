@@ -26,7 +26,7 @@ export const Terminal = () => {
         ))}
       </div>
 
-      <p>
+      <p className={styles.firstLine}>
         <span className={styles.firstSymbols}>{first.text.slice(0, 3)}</span>
         <span>{first.text.slice(3)}</span>
         {!first.isDone && (
