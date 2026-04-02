@@ -26,5 +26,13 @@ $danger: #d4645a;
 $warn: $brand-300;
 $info: $brand-200;
 
-$font-mono: "JetBrains Mono", monospace;
-$font-display: "Space Mono", monospace;
+$font-mono: 'JetBrains Mono', monospace;
+$font-display: 'Space Mono', monospace;
+
+// Breakpoints
+$mobile-sm: 320px;
+$mobile: 480px;
+$tablet: 768px;
+$laptop: 1024px;
+$desktop: 1280px;
+$desktop-lg: 1440px;

@@ -1,0 +1,31 @@
+@use '@/styles/variables' as *;
+
+.button {
+  font-family: $font-display;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid $accent;
+  padding: 14px 32px;
+  border-radius: 16px;
+  color: $accent;
+  transition: all .3s;
+}
+
+
+.primary {
+  background-color: rgba(193, 150, 115, 0.15);
+  &:hover {
+     background-color: $accent;
+     color: $bg;
+  }
+}
+
+.outline {
+  background-color: transparent;
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+  }
+}

@@ -12,7 +12,7 @@ type Props = {
  * @param text - строка которая должна быть "напечатана"
  * @param speed - скорость печати строки в мс
  * @param enabled - флаг включения печати текста
- * @returns
+ * @description хук для анимации набора текста
  */
 export const useTypedText = ({ text, speed, enabled }: Props) => {
   const [symbolNumber, setSymbolNumber] = useState(0);
