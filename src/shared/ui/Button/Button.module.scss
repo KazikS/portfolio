@@ -15,7 +15,7 @@
 
 
 .primary {
-  background-color: rgba(193, 150, 115, 0.15);
+  background-color: $accent-dim;
   &:hover {
      background-color: $accent;
      color: $bg;
