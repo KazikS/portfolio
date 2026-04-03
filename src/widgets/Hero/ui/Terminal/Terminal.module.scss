@@ -42,12 +42,9 @@
   background-color: $accent;
 }
 
-p {
-  display: flex;
-  align-items: center;
-  white-space: pre;
-  text-wrap: wrap;
-  margin: 10px 0;
+.firstLine,
+.secondLine {
+  margin-top: 15px;
 }
 
 .firstSymbols {

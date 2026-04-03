@@ -13,7 +13,7 @@ export const About = () => {
         <Card.Body>{t('about')}</Card.Body>
         <Card.Footer>
           {skills.map((el) => (
-            <Badge>{el}</Badge>
+            <Badge key={el}>{el}</Badge>
           ))}
         </Card.Footer>
       </Card>
