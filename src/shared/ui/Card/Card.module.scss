@@ -1,0 +1,19 @@
+@use '@/styles/variables' as *;
+
+.wrapper {
+  min-height: 100px;
+  background-color: $surface;
+  border: 2px solid $border;
+  border-radius: 12px;
+  padding: 16px;
+  color: $text-mid;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: $surface-hover;
+    border-color: $accent;
+    box-shadow:
+      0 0 40px $accent-dim,
+      inset 0 1px 0 $accent-dim;
+  }
+}

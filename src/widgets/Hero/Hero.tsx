@@ -2,7 +2,7 @@ import { FloatingText } from '@/widgets/Hero/ui/FloatingText';
 import styles from './Hero.module.scss';
 import { Terminal } from './ui/Terminal/Terminal';
 import { useTranslation } from 'react-i18next';
-import { Button } from '@/shared/ui/Button/Button';
+import { Button } from '@/shared/ui/Button';
 import { LucideArrowRightCircle } from 'lucide-react';
 
 export const Hero = () => {
