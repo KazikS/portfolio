@@ -7,5 +7,18 @@
     "projects": "Projects",
     "contacts": "Contacts"
   },
-  "about": "I'm a front-end developer with experience in the React/Next.js ecosystem. I work in a hybrid format while pursuing my master's degree. I enjoy applying my knowledge in practice—building real products, not just reading documentation. My goal is to become a full-stack senior developer."
+  "sections": {
+    "about": {
+      "title": "About me",
+      "cardContent": "I'm a front-end developer with experience in the React/Next.js ecosystem. I work in a hybrid format while pursuing my master's degree. I enjoy applying my knowledge in practice—building real products, not just reading documentation. My goal is to become a full-stack senior developer."
+    },
+    "skills": {
+      "title": "Skills",
+      "label": "everyday",
+      "lessThanYear": "<1 year",
+      "year_one": "year",
+      "year_few": "years",
+      "year_many": "years"
+    }
+  }
 }

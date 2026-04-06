@@ -9,6 +9,9 @@
   h1 {
     font-size: 72px;
     margin: 0;
+    @media (max-width: $mobile) {
+      font-size: 48px;
+    }
   }
 }
 
@@ -36,4 +39,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.translate {
+  font-family: $font-display;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid $accent;
+  padding: 14px 32px;
+  border-radius: 16px;
+  color: $accent;
+  transition: all 0.3s;
+  background-color: transparent;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  @media (max-width: $mobile) {
+    padding: 8px 16px;
+  }
 }

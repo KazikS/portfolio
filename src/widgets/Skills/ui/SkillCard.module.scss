@@ -1,0 +1,44 @@
+@use '@/styles/variables' as *;
+
+.wrapper {
+  width: 130px;
+  padding: 16px 12px;
+  border-radius: 10px;
+  border: 1px solid $accent-glow;
+  background: transparent;
+  text-align: center;
+}
+
+.progressBar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.dot {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: $text-dim;
+}
+
+.full {
+  background-color: $accent;
+}
+
+.half {
+  background: linear-gradient(90deg, $accent 50%, $text-dim 50%);
+}
+
+.title {
+  color: $text;
+}
+
+.exp {
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+  color: $text-dim;
+}

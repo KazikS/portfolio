@@ -10,7 +10,7 @@ type Props = {
 
 type ButtonProps = Partial<Props>;
 
-export const Button = ({ text, icon, variant = 'primary', href }: ButtonProps) => {
+export const NavButton = ({ text, icon, variant = 'primary', href }: ButtonProps) => {
   return (
     <a href={href} className={clsx(styles.button, styles[variant])}>
       {text}

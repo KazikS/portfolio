@@ -32,6 +32,11 @@
 }
 
 .body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
   font-size: 16px;
   font-family: $font-mono;
   line-height: 1.5;

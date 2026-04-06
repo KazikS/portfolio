@@ -8,9 +8,9 @@ export const About = () => {
   const { t } = useTranslation();
   return (
     <div>
-      <SectionTitle sectionNumber="01" sectionName="обо мне" />
+      <SectionTitle sectionNumber="01" sectionName={t('sections.about.title')} />
       <Card>
-        <Card.Body>{t('about')}</Card.Body>
+        <Card.Body>{t('sections.about.cardContent')}</Card.Body>
         <Card.Footer>
           {skills.map((el) => (
             <Badge key={el}>{el}</Badge>
