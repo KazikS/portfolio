@@ -10,7 +10,10 @@
   border-radius: 12px;
   padding: 16px;
   color: $text-mid;
-  transition: all 0.3s;
+  transition:             //конкретные стили для анимации чтобы не было конфликта с Framer motion и анимация не прыгала
+    background-color 0.3s,
+    border-color 0.3s,
+    box-shadow 0.3s;
 
   &:hover {
     background-color: $surface-hover;
@@ -23,7 +26,7 @@
 
 .footer {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   gap: 6px;
   row-gap: 10px;
 }

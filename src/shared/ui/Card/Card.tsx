@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import styles from './Card.module.scss';
+import { MotionBox } from '@/shared/ui/MotionBox';
 
 type Props = {
   children: ReactNode;
@@ -18,7 +19,16 @@ const Footer = ({ children }: Props) => {
 };
 
 export const Card = ({ children }: Props) => {
-  return <div className={styles.wrapper}>{children}</div>;
+  return (
+    <MotionBox
+      initial={{ y: 40, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.3, ease: "easeOut", type: "tween" }}
+      className={styles.wrapper}
+    >
+      {children}
+    </MotionBox>
+  );
 };
 
 Card.Header = Header;
