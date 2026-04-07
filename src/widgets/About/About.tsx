@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 export const About = () => {
   const { t } = useTranslation();
   return (
-    <div>
+    <section>
       <SectionTitle sectionNumber="01" sectionName={t('sections.about.title')} />
       <Card>
         <Card.Body>{t('sections.about.cardContent')}</Card.Body>
@@ -17,6 +17,6 @@ export const About = () => {
           ))}
         </Card.Footer>
       </Card>
-    </div>
+    </section>
   );
 };

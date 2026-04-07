@@ -1,5 +1,5 @@
-@use "./fonts";
-@use "./variables" as *;
+@use './fonts';
+@use './variables' as *;
 
 * {
   margin: 0;
@@ -14,6 +14,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   padding: 16px 16px;
+  scroll-behavior: smooth;
 }
 
 h1,

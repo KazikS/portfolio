@@ -25,8 +25,12 @@ export const Hero = () => {
       </p>
       <Terminal />
       <div className={styles.buttons}>
-        <NavButton text={t('hero.projects')} icon={<LucideArrowRightCircle width={18} />} />
-        <NavButton text={t('hero.contacts')} variant="outline" />
+        <NavButton
+          href="#projects"
+          text={t('hero.projects')}
+          icon={<LucideArrowRightCircle width={18} />}
+        />
+        <NavButton href="#contacts" text={t('hero.contacts')} variant="outline" />
       </div>
     </section>
   );

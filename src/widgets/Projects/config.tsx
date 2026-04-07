@@ -47,7 +47,7 @@ export const projects: ProjectType[] = [
     status: 'archived',
     stack: ['Next.js', 'TypeScript', 'Chakra UI', 'Supabase', 'Framer Motion'],
     links: [
-      { label: 'сайт', href: 'https://notes-app.vercel.app/' },
+      { label: 'сайт', href: 'https://notes-lyart-psi.vercel.app/' },
       { label: 'GitHub', href: 'https://github.com/KazikS/notes', icon: <GitHubLogo /> },
     ],
   },

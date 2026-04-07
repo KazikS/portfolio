@@ -8,8 +8,8 @@ import { projects } from './config';
 export const Projects = () => {
   const { t } = useTranslation();
   return (
-    <div>
-      <SectionTitle sectionNumber="04" sectionName={t('sections.projects.title')} />
+    <section>
+      <SectionTitle sectionNumber="04" sectionName={t('sections.projects.title')} id="projects"/>
       <div className={styles.projectList}>
         {projects.map((project) => (
           <ProjectCard
@@ -24,6 +24,6 @@ export const Projects = () => {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };

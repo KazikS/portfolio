@@ -10,7 +10,7 @@ import styles from './Skills.module.scss'
 export const Skills = () => {
   const { t } = useTranslation();
   return (
-    <div>
+    <section>
       <SectionTitle sectionNumber="02" sectionName={t('sections.skills.title')} />
       <Card>
         <Card.Body className={styles.body}>
@@ -24,6 +24,6 @@ export const Skills = () => {
           ))}
         </Card.Body>
       </Card>
-    </div>
+    </section>
   );
 };
