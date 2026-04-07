@@ -19,6 +19,40 @@
       "year_one": "year",
       "year_few": "years",
       "year_many": "years"
+    },
+    "projects": {
+      "title": "Projects",
+      "types": {
+        "commercial": "commercial",
+        "pet": "pet project"
+      },
+      "statuses": {
+        "production": "production",
+        "inProgress": "in progress",
+        "archived": "archived"
+      },
+      "items": {
+        "planb": {
+          "name": "Plan b.",
+          "description": "Beeline subscriber dashboard for the «Plan b.» tariff. Cross-platform web app for Telegram, VK, MAX MiniApp and web."
+        },
+        "automir": {
+          "name": "Automir Kotlas",
+          "description": "Car dealership website with vehicle catalog. Design tokens, semantic tokens with dark mode, carousels, Feature-Sliced Design architecture."
+        },
+        "notes": {
+          "name": "Notes",
+          "description": "Notes app — third learning project after a task tracker and a movie catalog. Focus on patterns and best practices."
+        },
+        "dactylo": {
+          "name": "DactyloExpress",
+          "description": "App for conducting fingerprint procedures and an assistant for Russian law enforcement officers."
+        },
+        "socialpulse": {
+          "name": "SocialPulse",
+          "description": "Desktop app for social media group activity analytics."
+        }
+      }
     }
   }
 }

@@ -3,7 +3,9 @@ import { SectionTitle } from '@/shared/ui/SectionTitle';
 import { useTranslation } from 'react-i18next';
 import { SkillCard } from './ui';
 import { skills } from './config';
-import { formatYears } from '@/shared/lib/formatYears';
+import { formatYears } from './lib/formatYears';
+
+import styles from './Skills.module.scss'
 
 export const Skills = () => {
   const { t } = useTranslation();
@@ -11,7 +13,7 @@ export const Skills = () => {
     <div>
       <SectionTitle sectionNumber="02" sectionName={t('sections.skills.title')} />
       <Card>
-        <Card.Body>
+        <Card.Body className={styles.body}>
           {skills.map((skill) => (
             <SkillCard
               key={skill.name}

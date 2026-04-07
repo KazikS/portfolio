@@ -1,0 +1,62 @@
+@use '@/styles/variables' as *;
+
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: $text;
+}
+
+.status {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.subtitle {
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-top: 6px;
+  text-transform: uppercase;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  background-color: $text-dim;
+  border-radius: 50%;
+  border-color: $border;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  @media (max-width: $mobile) {
+    display: flex;
+    flex-direction: column;
+  }
+  margin-bottom: 16px;
+}
+
+.link {
+  position: relative;
+  color: $text;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  text-decoration: none;
+  width: fit-content;
+  &::after {
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: $text;
+  }
+}
