@@ -22,6 +22,11 @@
     },
     "projects": {
       "title": "Проекты",
+      "filters": {
+        "all": "все",
+        "commercial": "коммерческий",
+        "pet": "пет"
+      },
       "types": {
         "commercial": "коммерческий",
         "pet": "пет-проект"

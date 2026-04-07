@@ -1,5 +1,45 @@
+@use '@/styles/variables' as *;
 .projectList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.button {
+  font-family: $font-display;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid $border;
+  padding: 12px;
+  border-radius: 16px;
+  color: $accent;
+  transition: all 0.3s;
+  background-color: transparent;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  @media (max-width: $mobile) {
+    padding: 8px 16px;
+  }
+}
+
+.selected {
+  opacity: 1;
+  border: 1px solid $accent;
+  background-color: $surface-hover;
+}
+
+.controls {
     display: flex;
-    flex-direction: column;
     gap: 16px;
+    padding: 16px 0;
+
+    @media (max-width: $mobile) {
+        flex-direction: column;
+    }
 }

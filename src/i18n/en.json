@@ -22,6 +22,11 @@
     },
     "projects": {
       "title": "Projects",
+      "filters": {
+        "all": "all",
+        "commercial": "commercial",
+        "pet": "pet"
+      },
       "types": {
         "commercial": "commercial",
         "pet": "pet project"

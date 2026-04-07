@@ -83,3 +83,9 @@ export const projects: ProjectType[] = [
     ],
   },
 ];
+
+export const filterOptions: { key: ProjectCategory | null; labelKey: string }[] = [
+  { key: null, labelKey: 'sections.projects.filters.all' },
+  { key: 'commercial', labelKey: 'sections.projects.filters.commercial' },
+  { key: 'pet', labelKey: 'sections.projects.filters.pet' },
+];
