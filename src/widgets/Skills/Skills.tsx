@@ -5,12 +5,12 @@ import { SkillCard } from './ui';
 import { skills } from './config';
 import { formatYears } from './lib/formatYears';
 
-import styles from './Skills.module.scss'
+import styles from './Skills.module.scss';
 
 export const Skills = () => {
   const { t } = useTranslation();
   return (
-    <section>
+    <section id="skills">
       <SectionTitle sectionNumber="02" sectionName={t('sections.skills.title')} />
       <Card>
         <Card.Body className={styles.body}>

@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 export const About = () => {
   const { t } = useTranslation();
   return (
-    <section>
+    <section id='about'>
       <SectionTitle sectionNumber="01" sectionName={t('sections.about.title')} />
       <Card>
         <Card.Body>{t('sections.about.cardContent')}</Card.Body>

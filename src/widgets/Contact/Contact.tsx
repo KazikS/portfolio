@@ -5,8 +5,8 @@ import { contacts } from './config';
 
 export const Contact = () => {
   return (
-    <section>
-      <SectionTitle sectionNumber="05" sectionName="Контакты" id='contacts'/>
+    <section id="contacts">
+      <SectionTitle sectionNumber="05" sectionName="Контакты" />
       <Card>
         <Card.Body>
           {contacts.map((contact) => (

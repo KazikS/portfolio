@@ -13,8 +13,8 @@ export const Projects = () => {
 
   const flitered = category ? projects.filter((project) => project.type === category) : projects;
   return (
-    <section>
-      <SectionTitle sectionNumber="04" sectionName={t('sections.projects.title')} id="projects" />
+    <section id="projects">
+      <SectionTitle sectionNumber="04" sectionName={t('sections.projects.title')} />
       <div className={styles.controls}>
         {filterOptions.map((filter) => (
           <button

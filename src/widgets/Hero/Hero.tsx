@@ -11,7 +11,7 @@ export const Hero = () => {
     i18n.changeLanguage(i18n.language === 'ru' ? 'en' : 'ru');
   };
   return (
-    <section className={styles.wrapper}>
+    <section className={styles.wrapper} id="hero">
       <FloatingText text="portfolio.v1" />
       <div className={styles.title}>
         <h1>{t('hero.name')}</h1>

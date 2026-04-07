@@ -4,6 +4,7 @@ import { About } from '@/widgets/About';
 import { Skills } from '@/widgets/Skills';
 import { Projects } from '@/widgets/Projects';
 import { Contact } from '@/widgets/Contact';
+import { DotNav } from '@/widgets/DotNav';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <DotNav />
     </>
   );
 }
