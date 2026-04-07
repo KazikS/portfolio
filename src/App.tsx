@@ -3,6 +3,7 @@ import '@/styles/globals.scss';
 import { About } from '@/widgets/About';
 import { Skills } from '@/widgets/Skills';
 import { Projects } from '@/widgets/Projects';
+import { Contact } from '@/widgets/Contact';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </>
   );
 }

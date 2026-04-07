@@ -1,0 +1,48 @@
+@use '@/styles/variables' as *;
+.wrapper {
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  gap: 8px;
+
+  &:hover {
+    border: 1px solid $accent;
+    border-radius: 8px;
+  }
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  min-height: 32px;
+  border-radius: 8px;
+  font-size: 24px;
+  background-color: $brand-400;
+  color: $text-dim;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.platform {
+  text-transform: uppercase;
+  color: $text-dim;
+}
+
+.contact {
+  color: $text;
+
+  @media (max-width: $mobile) {
+    font-size: 12px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
